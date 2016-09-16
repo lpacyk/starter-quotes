@@ -24,7 +24,9 @@ class Quotes extends CI_Model {
 		array('id' => '6', 'who' => 'Isaac Asimov', 'mug' => 'isaac-asimov-150x150.jpg', 'where' => '/comp4711/wisdom',
 			'what' => 'Those people who think they know everything are a great annoyance to those of us who do.'),
 		array('id' => '7', 'who' => 'Lego Man', 'mug' => 'legoman.jpg', 'where' => '/comp4711/lego',
-			'what' => 'Stepping on a lego can prove fatal.')
+			'what' => 'Stepping on a lego can prove fatal.'),
+		array('id' => '8', 'who' => 'Ethan Klein', 'mug' => 'ethan-klein-150x150.jpg', 'where' => '/comp4711/ethan',
+			'what' => 'vape naysh yall.')
 	);
 
 	// Constructor
