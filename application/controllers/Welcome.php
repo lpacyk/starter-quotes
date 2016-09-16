@@ -23,7 +23,7 @@ class Welcome extends Application
 		$authors = array ();
 		foreach ($source as $record)
 		{
-			$authors[] = array ('who' => $record['who'], 'mug' => $record['mug'], 'href' => $record['where']);
+			$authors[] = array ('who' => $record['who'], 'mug' => $record['mug'], 'what' => $record['what'] , 'href' => $record['where']);
 		}
 		$this->data['authors'] = $authors;
 
